@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatAnchor, MatButtonModule } from '@angular/material/button';
 import { MatFormField } from '@angular/material/form-field';
@@ -11,5 +11,9 @@ import { MatInputModule } from '@angular/material/input';
   styleUrl: './thamilton-roll-d20.css',
 })
 export class ThamiltonRollD20 {
-  private readonly rollD20 = () => {};
+  protected readonly rollD20 = () => {};
+
+  protected readonly numberOne = signal(2);
+  protected readonly numberTwo = signal(2);
+  protected readonly sum = signal(4);
 }
