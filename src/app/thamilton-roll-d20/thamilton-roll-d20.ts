@@ -27,6 +27,7 @@ export class ThamiltonRollD20 {
     this.result.set(sum);
   };
 
+  /*
   protected readonly numberOne = signal(2);
   protected readonly numberTwo = signal(2);
   protected readonly sum = signal(4);
@@ -35,4 +36,5 @@ export class ThamiltonRollD20 {
   protected readonly updateNumberTwo = (num: string) => this.numberTwo.set(Number(num));
 
   protected readonly add = () => this.sum.set(this.numberOne() + this.numberTwo());
+  */
 }
