@@ -3,7 +3,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatAnchor, MatButtonModule } from "@angular/material/button";
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
-import { PizzaTopping } from '../pizza.service';
 
 @Component({
   selector: 'app-lmeier-custom-topping',
