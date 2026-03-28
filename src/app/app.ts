@@ -9,7 +9,7 @@ import { CbaresDiceRoll } from './cbares-dice-roll/cbares-dice-roll';
   selector: 'app-root',
   imports: [
     PizzaToppings,
-    MrooneyAddition
+    MrooneyAddition,
     TsteeleMultiplication,
     CbaresDiceRoll,
     ZsmuckerbryanChecklist,
